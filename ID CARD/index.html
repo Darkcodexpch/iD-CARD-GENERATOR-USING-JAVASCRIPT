@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ID CARD</title>
+</head>
+
+<body>
+    <center>
+    <div class="form">
+   <input type="text" id="txt1" placeholder="Enter Roll Number"/>
+   <br/>
+   <input type="text" id="txt2" placeholder="Enter Your Name"/>
+   <br/>
+   <input type="text" id="txt3" placeholder="Enter Father Name"/>
+   <br/>
+   <input type="text" id="txt4" placeholder="Enter Your Class"/>
+   <br/>
+   <input type="text" id="txt5" placeholder="Enter Emergency Call"/>
+   <br/>
+   <button class="btn" onclick="addtxt()">Generate Card</button>
+    </div>
+    </center>
+    <div class="main">
+        <div class="card">
+            <div class="logo">
+                <img src="./Images/ocy.PNG" />
+                <p>Reg:example<br />
+                    <b style="color: red;">Identity Card</b>
+                </p>
+            </div>
+            <div class="details">
+                <ul id="card">
+                </ul>
+                <img src="./Images/ok.PNG" height="130px" width="150px">
+            </div>
+        </div>
+        <div class="footer">
+            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates vitae, accusamus ratione
+                provident nam, iure unde quaerat esse dolores eaque saep</span>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

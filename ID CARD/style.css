@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #264653;
+}
+
+.main{
+height: 300px;
+width: 500px;
+margin: 0px auto;
+background-color: #fff;
+position: relative;
+}
+.card{
+    height: 80%;
+    width: auto;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color:#063970;
+    height: 20%;
+    width: auto;
+    color: #fff;
+}
+
+.form{
+    padding: 10px;
+    margin: 10px;
+}
+.form > input{
+    padding: 5px 25px;
+    margin: 5px;
+    border-radius: 10px;
+}
